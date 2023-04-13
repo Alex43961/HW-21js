@@ -1,11 +1,11 @@
 * {
-	box-sizing: border-box;
+
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	background-color: #292929;
+	background-color: #f3efef;
 	width: 1300px;
 }
 
@@ -41,10 +41,11 @@ body {
 
 #list {
 	margin-top: 10px;
+	padding-left: 40px;
+
 }
 
-#list li {
-	list-style-type: none;
+.li {	
 	width: 400px;
 	height: 80px;
 	background-color: aliceblue;
@@ -57,6 +58,7 @@ body {
 	align-items: center;
 	gap: 20px;
 }
+
 #list li span {
 	width: 320px;
 	height: 100%;
